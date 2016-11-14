@@ -1,0 +1,242 @@
+.head_address header{
+	width: 100%;
+	height: 1.4375rem;
+	background: #ffd600;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+
+.head_address header>a:first-of-type{
+	font-size: 0.40625rem;
+	color: #333333;
+	font-weight: bold;
+	min-width: 2.546875rem;
+}
+.head_address header>a:first-of-type img{
+	margin-left: 0.078125rem;
+	width: 0.25rem;
+	height: 0.265625rem;
+}
+.head_address header>a:last-of-type{
+	font-size: 0.25rem;
+	margin-right: 0.1875rem;
+	margin-left: 2.875rem;
+}
+.head_address header>a:last-of-type img{
+	display: block;
+	width: 0.609375rem;
+	height: 0.59375rem;
+	margin-bottom: 0.15625rem;
+}
+.head_address header>a:last-of-type span{
+	min-width: 0.5625rem;
+
+}
+/*商品分类部分开始*/
+.commodity_classify{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 1.4375rem;
+	bottom: 0;
+}
+.commodity_classify .hot_sel{
+	width: 2.375rem;
+	position: relative;
+}
+.commodity_classify .aside {
+	width: 2.375rem;
+	background: #f8f8f8;
+	position: absolute;
+	top: 0;
+	bottom: 1.5625rem;
+	overflow: auto;
+	
+}
+
+.commodity_classify .aside  li{
+	width: 100%;
+
+	height: 1.28125rem;
+	text-align: center;
+	line-height: 1.28125rem;
+	border-bottom: 0.03125rem solid #e0e0e0;
+}
+.commodity_classify .aside li:first-of-type{
+	background:url(../../images/hot_02.png) 0 center no-repeat;
+	background-size: 0.15625rem 1.09375rem;
+}
+.commodity_classify .aside li:last-of-type{
+	border-bottom: none;
+}
+.commodity_classify .aside li span{
+	min-width: 1.484375rem;
+	color: #838383;
+
+}
+.commodity_classify .aside li:nth-of-type(2){
+	position: relative;
+}
+.commodity_classify .aside li:nth-of-type(2)>img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0.875rem;
+	height: 0.90625rem;
+}
+
+.specific_sells{
+	width: 7.5rem;
+	/*display: flex;
+	flex-wrap: wrap;*/
+	position: relative;
+
+}
+.specific_sells .sort{
+	width: 100%;
+	display: flex;
+	height: 1.25rem;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.specific_sells .sort li{
+	padding: 0 0.875rem;
+	height: 0.546875rem;
+}
+.specific_sells .sort li>a{
+	min-width: 1.9375rem;
+	display: flex;
+	align-items: center;
+}
+.specific_sells .sort li img{
+	width: 0.3125rem;
+	height: 0.15625rem;
+	margin-left: 0.15625rem;
+}
+.specific_sells .sort li:first-of-type{
+	border-right: 1px solid #dddddd;
+}
+.cells_message{
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	position: absolute;
+	top: 1.25rem;
+	bottom: 1.5625rem;
+}
+.cells_message li{
+	width: 100%;
+	height: 2.8125rem;
+	border-top: 0.03125rem solid #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.cells_message>li>a{
+	width: 2.34375rem;
+	height: 2.34375rem;
+}
+.cells_message>li>a img{
+	width: 2.34375rem;
+	height: 2.34375rem;
+}
+.cells_message .price{
+	width: 4.6875rem;
+	overflow: hidden;
+	margin-left: 0.3125rem;
+	
+}
+.cells_message .price p{
+	height: 0.578125rem;
+	line-height: 0.578125rem;
+}
+.cells_message .price p:first-of-type a{
+	color: #232b33;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 2.625rem;
+}
+.cells_message .price p:nth-of-type(2){
+	display: flex;
+	align-items: center;
+}
+.cells_message .price p:nth-of-type(2) span:first-of-type{
+	display: inline-block;
+	width: 0.875rem;
+	height: 0.4375rem;
+	border: 0.03125rem solid #ff0000;
+	border-radius: 0.078125rem;
+	font-size: 0.28125rem;
+	color: #ff0000;
+	text-align: center;
+	line-height: 0.4375rem;
+	margin-right: 0.203125rem;
+}
+.cells_message .price p:nth-of-type(2) span:last-of-type{
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.4375rem;
+	border-radius: 0.078125rem;
+	background-color: #ff0000;
+	color: #fff;
+	font-size: 0.28125rem;
+	text-align: center;
+	line-height: 0.4375rem;
+}
+.cells_message .price p:nth-of-type(3) span{
+	color: #999999;
+}
+.cells_message .price p:nth-of-type(4) span:first-of-type{
+	color: #ff3800;
+	margin-right: 0.109375rem;
+}
+.cells_message .price p:nth-of-type(4) span:last-of-type{
+	color: #999999;
+	text-decoration: line-through;
+}
+.cells_message .join_shop{
+	width: 2.4375rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 1.5625rem;
+	right: 0.34375rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cells_message .join_shop>span{
+	width: 0.875rem;
+	height: 0.875rem;
+	border-radius: 50%;
+	border: 0.03125rem solid #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jian_cell{
+	visibility: hidden;
+}
+.add_cell>img{
+	width: 0.34375rem;
+	height: 0.34375rem;
+}
+.jian_cell>img{
+	width: 0.34375rem;
+	height: 0.34375rem;
+	
+}
+.cells_message .join_shop i{
+	font-style: normal;
+	color: #333333;
+	font-weight: bold;
+	visibility: hidden;
+}
+

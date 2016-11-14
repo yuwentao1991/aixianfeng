@@ -1,0 +1,54 @@
+/*底部固定部分开始*/
+#foot{
+	width: 100%;
+	height: 1.5625rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	z-index: ::;;;
+}
+#foot>a{
+	font-size: 0.34375rem;
+	min-width: 1.5625rem;
+	position: relative;
+
+}
+#foot>a>img{
+	width: 0.546875rem;
+	height: 0.59375rem;
+	display: block;
+	margin-left: 0.5rem;
+	margin-bottom: 0.203125rem;
+}
+#foot>a>span{
+	display: block;
+	text-align: center;
+}
+#foot .set_shop_car{
+	width: 0.46875rem;
+	height: 0.46875rem;
+	border-radius: 50%;
+	background: red;
+	line-height: 0.46875rem;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.on{
+	animation:shop_car 0.2s ;
+}
+@keyframes shop_car{
+	0%,100%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.1);
+	}
+	
+}
