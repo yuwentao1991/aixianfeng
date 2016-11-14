@@ -1,6 +1,7 @@
 window.onload=function(){
 	var a=0;
 	var b="王淼提交的";
+	var c="自己修改的";
 	document.documentElement.style.fontSize=innerWidth/10+"px";
 	window.onresize=function(){
 		document.documentElement.style.fontSize=innerWidth/10+"px";
